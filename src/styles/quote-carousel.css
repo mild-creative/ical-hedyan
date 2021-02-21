@@ -1,0 +1,23 @@
+#quote-container {
+  /* min-width: 300px; */
+  max-width: 500px;
+  margin: 5rem auto;
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(../assets/quote-border.png) 30 stretch;
+}
+
+#quote-container h2 {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  #quote-container {
+    margin: 5rem 1rem;
+    padding: 5px;
+  }
+  #quote-container h2 {
+    text-align: center;
+    font-size: 16px;
+  }
+}
